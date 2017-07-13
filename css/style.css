@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+}
+
+.audio-container {
+  float: right;
+}
+
+.audio-container i{
+  margin-top: 15px;
+  margin-right: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.volume {
+   position:relative;
+   cursor:pointer;
+   width:90px;
+   height:3px;
+   float:right;
+   margin-top:20px;
+   margin-right:10px;
+   background-color:#555;
+}
+
+.volumeBar {
+    display:block;
+    height:3px;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:white;
+    z-index:10;
+    width: 90px;
+}
+
+#circle {
+     width: 300px;
+     height: 300px;
+     position: absolute;
+     top: 22%;
+     left: 50%;
+     margin-top: -50px;
+     margin-left: -150px;
+     -webkit-border-radius: 150px;
+     -moz-border-radius: 150px;
+     border-radius: 150px;
+     background: white;
+}
