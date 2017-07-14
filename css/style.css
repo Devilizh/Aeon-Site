@@ -8,38 +8,46 @@ body{
 
 .audio-container i{
   margin-top: 15px;
-  margin-right: 10px;
+  margin-right: 13px;
   color: white;
   font-size: 15px;
+}
+
+#sound {
+  font-size: 18px;
 }
 
 .volume {
    position:relative;
    cursor:pointer;
    width:90px;
-   height:3px;
+   height:4px;
    float:right;
-   margin-top:20px;
+   margin-top:22px;
    margin-right:10px;
    background-color:#555;
 }
 
 .volumeBar {
     display:block;
-    height:3px;
+    height:4px;
     position:absolute;
     top:0;
     left:0;
     background-color:white;
     z-index:10;
-    width: 90px;
+    width: 10px;
+    max-width: 90px;
+}
+
+.logo-container {
 }
 
 #circle {
      width: 300px;
      height: 300px;
      position: absolute;
-     top: 22%;
+     top: 18%;
      left: 50%;
      margin-top: -50px;
      margin-left: -150px;
@@ -47,4 +55,23 @@ body{
      -moz-border-radius: 150px;
      border-radius: 150px;
      background: white;
+}
+
+.logo-text{
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  top: 55%;
+  left: 50%;
+  margin-left: -110px;
+  text-align: center;
+}
+
+#creative-studio {
+  font-size: 32px;
+  margin-top: -12px;
+}
+
+#aeon {
+  font-size: 60px;
 }

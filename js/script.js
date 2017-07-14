@@ -2,6 +2,7 @@
 var audio = document.getElementsByTagName('audio')[0];
 audio.volume = 0.1;
 
+
 $('.muted').click(function () {
     audio.muted = !audio.muted;
     return false;
